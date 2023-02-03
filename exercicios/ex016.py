@@ -8,3 +8,4 @@ numero = float(input('Digite um número.: '))
 inteiro = trunc(numero)
 
 print('A parte inteira do número {} é igual a {}.'.format(numero, inteiro))
+print('A parte inteira do número {} é igual a {}.'.format(numero, int(numero)))
