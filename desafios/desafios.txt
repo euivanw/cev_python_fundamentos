@@ -52,3 +52,37 @@ O mesmo professor do desafio anterior quer sortear a ordem de apresentação de 
 
 021
 Faça um programa em Python que abra e reproduza o áudio de um arquivo mp3.
+
+022
+Crie um programa que leia o nome completo de uma pessoa e mostre:
+- O nome com todas as letras maiúsculas
+- O nome com todas as letras minúsculas
+- Quantas letras ao todo (sem considerar espaços)
+- Quantas letras tem o primeiro nome
+
+023
+Faça um programa que leia um número a 0 e 9999 e mostre na tela cada um dos dígitos separado
+Ex:
+ Digite um número: 1834
+ Unidades: 4
+ Dezenas: 3
+ Centenas: 8
+ Milhares: 1
+
+024
+Crie um programa que leia o nome de uma cidade e digita se ela começa ou não com o nome 'Santo'
+
+025
+Crie um programa que leia o nome de uma pessoa e diga se ela tem SILVA no nome.
+
+026
+Faça um programa que leia uma frase pelo teclaro e mostre:
+ - Quantas vezes aparece a letra A
+ - Em que posição ela aparece na primeira vez
+ - Em que posição ela aparece na última vez
+
+027
+Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último número separadamente.
+ Ex: Ana Maria de Souza
+ primeiro = Ana
+ ultimo - Souza
