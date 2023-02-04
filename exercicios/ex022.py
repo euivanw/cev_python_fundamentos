@@ -4,9 +4,11 @@
 # - Quantas letras ao todo (sem considerar espaços)
 # - Quantas letras tem o primeiro nome
 
-nome = input('Digite seu nome completo.: ')
+nome = input('Digite seu nome completo.: ').strip()
 
 print(nome.upper())
 print(nome.lower())
 print(len(nome.replace(' ', '')))
+print(len(nome) - nome.count(' '))
 print(len(nome.split()[0]))
+print(nome.find(' '))

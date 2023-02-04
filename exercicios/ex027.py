@@ -5,7 +5,7 @@
 #  primeiro = Ana
 #  ultimo - Souza
 
-nome = input('Digite um nome completo.: ')
+nome = input('Digite um nome completo.: ').strip()
 nome_separado = nome.split()
 
 print('Primeiro nome.: {}'.format(nome_separado[0]))

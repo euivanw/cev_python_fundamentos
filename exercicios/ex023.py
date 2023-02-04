@@ -13,3 +13,15 @@ print('Unidades: {}'.format(numero[3]))
 print('Dezenas.: {}'.format(numero[2]))
 print('Centenas: {}'.format(numero[1]))
 print('Milhares: {}'.format(numero[0]))
+
+numero = int(numero)
+
+unidade = numero // 1 % 10
+dezena = numero // 10 % 10
+centena = numero // 100 % 10
+milhar = numero // 1000 % 10
+
+print('Unidades: {}'.format(unidade))
+print('Dezenas.: {}'.format(dezena))
+print('Centenas: {}'.format(centena))
+print('Milhares: {}'.format(milhar))
