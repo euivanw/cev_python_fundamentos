@@ -8,4 +8,8 @@ if (distancia <= 200.0):
 else:
     passagem = distancia * 0.45
 
-print('Preço da passagem R$ {:.2f}'.format(passagem))
+print('Preço da passagem R$ {:.2f}.'.format(passagem))
+
+passagem = distancia * 0.5 if distancia <= 200.0 else distancia * 0.45
+
+print('Preço da passagem R$ {:.2f} (simplificado).'.format(passagem))

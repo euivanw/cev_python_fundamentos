@@ -5,6 +5,6 @@
 velocidade = float(input('Digite a velocidade do carro.: '))
 
 if (velocidade > 80.0):
+    print('Você ultrapassou a velocidade permitida e foi multado.')
     multa = (velocidade - 80.0) * 7
-    print('Você ultrapassou a velocidade permitida.')
     print('O valor da multa é R$ {:.2f}.'.format(multa))
